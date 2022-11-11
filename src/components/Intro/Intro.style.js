@@ -17,8 +17,11 @@ export const Wrapper = styled.div`
       color: var(--clr-black);
       > span {
         background: #dbd8f7;
-        padding: 5px 15px;
+        display: block;
+        width: 250px;
+        padding: 10px 15px;
         border-radius: 10px;
+        clip-path: polygon(0 0, 100% 28%, 100% 77%, 0 100%);
       }
     }
     p {

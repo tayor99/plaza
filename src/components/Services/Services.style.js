@@ -48,7 +48,7 @@ export const Wrapper = styled.div`
   .btn {
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin: 25px 0;
     > button {
       width: 180px;
       height: 48px;
@@ -63,6 +63,7 @@ export const Wrapper = styled.div`
       font-weight: 700;
       font-size: 1rem;
       color: #ffffff;
+      cursor: pointer;
     }
   }
 `;
