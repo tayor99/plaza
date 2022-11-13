@@ -7,6 +7,17 @@ export const Header = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  .nav-toggle {
+    display: none;
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+    color: var(--clr-black);
+    cursor: pointer;
+    > svg {
+      font-size: 2.5rem;
+    }
+  }
   .navlinks {
     ul {
       display: flex;
@@ -42,6 +53,17 @@ export const Header = styled.header`
           width: 100%;
         }
       }
+    }
+  }
+  @media (max-width: 882px) {
+    .nav-toggle {
+      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .navlinks {
+      display: none;
     }
   }
 `;

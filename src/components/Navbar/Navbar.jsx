@@ -6,12 +6,13 @@ const Navbar = ({ setIsSidebarOpen }) => {
   const openSideBar = () => {
     setIsSidebarOpen(true);
   };
+
   return (
     <Header>
       <div className="navbar__title">
         <h1>Plazza</h1>
       </div>
-      <button className=" nav-toggle" onClick={openSideBar}>
+      <button className="nav-toggle" onClick={openSideBar}>
         <FaBars />
       </button>
       <div className="navlinks">
