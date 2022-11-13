@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
     margin: 50px 0;
     .img__container {
       width: 100%;
-      height: 600px;
+      /* height: 600px; */
       img {
         width: 100%;
         height: 100%;

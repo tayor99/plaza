@@ -1,6 +1,8 @@
 import { Wrapper } from "./Services.style";
 import bqq from "../../Asset/bqq.png";
 import { services } from "../../utils";
+import ImageCarousel from "../ImageCarousel/ImageCarousel";
+import { images } from "../../data";
 
 const Services = () => {
   return (
@@ -8,7 +10,11 @@ const Services = () => {
       <h1>Our Services</h1>
       <div className="service__carousel">
         <div className="img__container">
-          <img src={bqq} alt="" />
+          <ImageCarousel images={images} />
+          {/* {images.map((image) => (
+            <ImageCarousel image={image.img} />
+          ))} */}
+          {/* <img src={bqq} alt="" /> */}
         </div>
       </div>
       <div className="services">

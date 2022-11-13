@@ -4,7 +4,10 @@ export const Wrapper = styled.div`
   width: 80%;
   margin: 0 auto;
   margin-top: 80px;
-  .marketplace {
+  margin-bottom: 40px;
+  /* .marketplace {
+  } */
+  .marketplace__container {
     display: flex;
     position: relative;
     align-items: center;
@@ -61,6 +64,34 @@ export const Wrapper = styled.div`
         font-size: 1rem;
         color: #ffffff;
         cursor: pointer;
+      }
+    }
+  }
+  .countries {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    h1 {
+      margin: 25px 0;
+      text-align: center;
+      font-family: var(--primary-font);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2rem;
+      color: var(--clr-black);
+    }
+    .flag__image {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .flag {
+      > p {
+        text-align: center;
+        margin-top: 25px;
+        font-family: var(--primary-font);
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: #000000;
       }
     }
   }

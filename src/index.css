@@ -1,3 +1,6 @@
+/* import "slick-carousel/slick/slick.css";
+ import "slick-carousel/slick/slick-theme.css"; */
+
 * {
   margin: 0;
   padding: 0;
@@ -27,3 +30,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/* .slick-slide img {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+} */

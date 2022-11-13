@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer";
 import Intro from "./components/Intro/Intro";
 import Marketplace from "./components/MarketPlace/Marketplace";
 import Navbar from "./components/Navbar/Navbar";
@@ -10,6 +11,7 @@ function App() {
       <Intro />
       <Services />
       <Marketplace />
+      <Footer />
     </div>
   );
 }
