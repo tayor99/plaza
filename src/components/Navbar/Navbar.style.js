@@ -18,6 +18,29 @@ export const Header = styled.header`
         font-size: 1.1rem;
         color: var(--clr-grey);
         cursor: pointer;
+        position: relative;
+        padding-bottom: 6px;
+        transition: all 1s;
+        &:hover {
+          color: #0a0a00;
+        }
+
+        &::after {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          /* margin: auto; */
+          width: 0%;
+          content: ".";
+          color: transparent;
+          background: #a70e0d;
+          height: 3px;
+          transition: all 1s;
+        }
+        &:hover::after {
+          width: 100%;
+        }
       }
     }
   }

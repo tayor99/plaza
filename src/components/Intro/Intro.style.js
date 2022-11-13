@@ -44,4 +44,6 @@ export const Wrapper = styled.div`
       }
     }
   }
+  @media screen (max-width: 1067px) {
+  }
 `;
