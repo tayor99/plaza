@@ -11,10 +11,6 @@ const Services = () => {
       <div className="service__carousel">
         <div className="img__container">
           <ImageCarousel images={images} />
-          {/* {images.map((image) => (
-            <ImageCarousel image={image.img} />
-          ))} */}
-          {/* <img src={bqq} alt="" /> */}
         </div>
       </div>
       <div className="services">

@@ -1,13 +1,17 @@
 import { Wrapper } from "./Intro.style.js";
 import plazaCard from "../../Asset/plazacard.png";
+import showcase from "../../Asset/showcase.png";
 
 const Intro = () => {
   return (
     <Wrapper>
       <div className="intro__details">
         <h1>
-          Your one stop shop for <br /> <span>all services</span>
+          Your one stop shop for <span>all services</span>
         </h1>
+        <div className="img_container">
+          <img src={showcase} alt="" />
+        </div>
         <p>
           Finding a good plumber, painter or electrician can be a hassle.
           Between low competition, long wait times and shoddy service, the

@@ -11,11 +11,10 @@ export const Wrapper = styled.div`
     color: var(--clr-black);
   }
   .service__carousel {
-    /* width: 100%; */
     margin: 50px 0;
     .img__container {
       width: 100%;
-      /* height: 600px; */
+
       img {
         width: 100%;
         height: 100%;
@@ -64,6 +63,18 @@ export const Wrapper = styled.div`
       font-size: 1rem;
       color: #ffffff;
       cursor: pointer;
+    }
+  }
+  @media (max-width: 700px) {
+    .services {
+      > ul {
+        width: 90%;
+        /* justify-content: flex-start; */
+        > li {
+          margin: 5px 10px;
+          padding: 10px 20px;
+        }
+      }
     }
   }
 `;

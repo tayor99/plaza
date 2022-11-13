@@ -19,6 +19,7 @@ export const Wrapper = styled.footer`
         color: #bebeb4;
         list-style: none;
         margin-right: 38px;
+        cursor: pointer;
       }
     }
     .footer__socials {
@@ -51,6 +52,29 @@ export const Wrapper = styled.footer`
           font-size: 3.2rem;
           margin-left: 15px;
           border-radius: 20px;
+        }
+      }
+    }
+  }
+  @media (max-width: 750px) {
+    .footer__links {
+      flex-direction: column;
+      li {
+        margin-bottom: 10px;
+      }
+    }
+    .footer__logo {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 400px) {
+    .footer__socials {
+      flex-direction: column;
+      align-items: flex-start !important;
+      .socials {
+        margin-top: 20px;
+        > svg {
+          margin-left: 0px !important;
         }
       }
     }

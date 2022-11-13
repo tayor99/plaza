@@ -24,6 +24,13 @@ export const Wrapper = styled.div`
         clip-path: polygon(0 0, 100% 28%, 100% 77%, 0 100%);
       }
     }
+    .img_container {
+      width: 100%;
+      display: none;
+      img {
+        width: 100%;
+      }
+    }
     p {
       text-align: justify;
       margin-top: 35px;
@@ -35,8 +42,9 @@ export const Wrapper = styled.div`
     }
   }
   .intro__img {
+    width: 47%;
     .img__container {
-      width: 600.33px;
+      width: 100%;
       height: 400px;
       img {
         width: 100%;
@@ -44,6 +52,27 @@ export const Wrapper = styled.div`
       }
     }
   }
-  @media screen (max-width: 1067px) {
+  @media (max-width: 1200px) {
+    .intro__details {
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+  }
+  @media (max-width: 860px) {
+    .intro__details {
+      width: 100%;
+      h1 {
+        span {
+          display: inline-block;
+        }
+      }
+      .img_container {
+        display: block;
+      }
+    }
+    .intro__img {
+      display: none;
+    }
   }
 `;

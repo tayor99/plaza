@@ -8,7 +8,7 @@ const Marketplace = () => {
       <div className="marketplace">
         <div className="marketplace__container">
           <div className="img__container">
-            <img src={Shop} alt="" />
+            <img src={Shop} alt="shops" />
           </div>
           <div className="marketplace__detials">
             <div className="marketplace__info">
