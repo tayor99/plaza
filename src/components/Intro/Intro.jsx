@@ -4,7 +4,7 @@ import showcase from "../../Asset/showcase.png";
 
 const Intro = () => {
   return (
-    <Wrapper>
+    <Wrapper id="home">
       <div className="intro__details">
         <h1>
           Your one stop shop for <span>all services</span>

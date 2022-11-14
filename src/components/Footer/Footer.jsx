@@ -17,8 +17,8 @@ const Footer = () => {
         </ul>
         <div className="footer__socials">
           <div className="footer__logo">
-            <h1>Plazzza</h1>
-            <p>Plazzza inc. All rights reserved</p>
+            <h1>Plazzaa</h1>
+            <p>Plazzaa inc. All rights reserved</p>
           </div>
           <div className="socials">
             <AiFillFacebook />

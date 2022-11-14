@@ -4,7 +4,7 @@ import nigeria from "../../Asset/nigeria.png";
 import cameroon from "../../Asset/cameroon.png";
 const Marketplace = () => {
   return (
-    <Wrapper>
+    <Wrapper id="marketplace">
       <div className="marketplace">
         <div className="marketplace__container">
           <div className="img__container">

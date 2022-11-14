@@ -1,18 +1,18 @@
 export const links = [
   {
-    id: 0,
+    id: "#home",
     name: "Home",
   },
   {
-    id: 1,
+    id: "#services",
     name: "Services",
   },
   {
-    id: 2,
+    id: "#marketplace",
     name: "Marketplace",
   },
   {
-    id: 3,
+    id: "/",
     name: "Open up shop",
   },
 ];

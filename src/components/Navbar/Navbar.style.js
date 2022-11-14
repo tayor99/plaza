@@ -24,14 +24,17 @@ export const Header = styled.header`
       li {
         list-style: none;
         margin-left: 30px;
-        font-family: var(--primary-font);
-        font-weight: 800;
-        font-size: 1.1rem;
-        color: var(--clr-grey);
         cursor: pointer;
         position: relative;
         padding-bottom: 6px;
         transition: all 1s;
+        a {
+          text-decoration: none;
+          font-family: var(--primary-font);
+          font-weight: 800;
+          font-size: 1.1rem;
+          color: var(--clr-grey);
+        }
         &:hover {
           color: #0a0a00;
         }

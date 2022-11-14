@@ -44,14 +44,17 @@ export const SidebarContainer = styled.div`
     li {
       list-style: none;
       margin-bottom: 30px;
-      font-family: var(--primary-font);
-      font-weight: 800;
-      font-size: 1.1rem;
-      color: var(--clr-black);
       cursor: pointer;
       position: relative;
       padding-bottom: 6px;
       transition: all 1s;
+      a {
+        text-decoration: none;
+        font-family: var(--primary-font);
+        font-weight: 800;
+        font-size: 1.1rem;
+        color: var(--clr-black);
+      }
       &:hover {
         color: #0a0a00;
       }

@@ -10,7 +10,7 @@ const Navbar = ({ setIsSidebarOpen }) => {
   return (
     <Header>
       <div className="navbar__title">
-        <h1>Plazza</h1>
+        <h1>Plazzaa</h1>
       </div>
       <button className="nav-toggle" onClick={openSideBar}>
         <FaBars />
@@ -19,8 +19,8 @@ const Navbar = ({ setIsSidebarOpen }) => {
         <ul>
           {links.map((link) => {
             return (
-              <li key={link.id} id={link.name}>
-                {link.name}
+              <li key={link.id}>
+                <a href={link.id}>{link.name}</a>
               </li>
             );
           })}

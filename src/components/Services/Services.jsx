@@ -1,12 +1,11 @@
 import { Wrapper } from "./Services.style";
-import bqq from "../../Asset/bqq.png";
 import { services } from "../../utils";
 import ImageCarousel from "../ImageCarousel/ImageCarousel";
 import { images } from "../../data";
 
 const Services = () => {
   return (
-    <Wrapper>
+    <Wrapper id="services">
       <h1>Our Services</h1>
       <div className="service__carousel">
         <div className="img__container">

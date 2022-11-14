@@ -12,7 +12,7 @@ const Sidebar = ({ setIsSidebarOpen, isSidebarOpen }) => {
         className={`${isSidebarOpen ? "sidebar show-sidebar" : "sidebar"}`}
       >
         <div className="sidebar-header">
-          <h1>Plazzza</h1>
+          <h1>Plazzaa</h1>
           <button className="close-btn" type="button" onClick={closeSidebar}>
             <FaTimes />
           </button>
@@ -20,8 +20,8 @@ const Sidebar = ({ setIsSidebarOpen, isSidebarOpen }) => {
         <ul>
           {links.map((link) => {
             return (
-              <li key={link.id} id={link.name}>
-                {link.name}
+              <li key={link.id} onClick={closeSidebar}>
+                <a href={link.id}>{link.name}</a>
               </li>
             );
           })}
