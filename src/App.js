@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Services from "./components/Services/Services";
 import Sidebar from "./components/Sidebar/Sidebar";
 import { useState } from "react";
+import OurApp from "./components/OurApp/OurApp";
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -18,6 +19,7 @@ function App() {
       />
       <Intro />
       <Services />
+      <OurApp />
       <Marketplace />
       <Footer />
     </div>

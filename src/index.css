@@ -8,7 +8,7 @@
     url("./Fonts/ProductSans-Regular.ttf") format("truetype");
 }
 :root {
-  --clr-white: #e5e5e5;
+  --clr-white: #ffffff;
   --clr-grey: #aaaaa0;
   --clr-black: #000000;
   --primary-font: "regular";

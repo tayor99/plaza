@@ -1,73 +1,70 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  margin-top: 80px;
   margin-bottom: 40px;
-
-  .marketplace__container {
+  .open__shop {
     display: flex;
-    position: relative;
-    align-items: center;
-  }
-  .img__container {
-    width: 48%;
-    height: 350px;
-    z-index: 1;
-    > img {
-      width: 100%;
-      height: 100%;
-    }
-  }
-  .marketplace__detials {
-    background: #ffd6d5;
-    border-radius: 20px;
-    width: 62%;
-    position: absolute;
-    right: 0;
-    clip-path: polygon(0 14%, 100% 0, 100% 100%, 0 86%);
-    .marketplace__info {
-      width: 52%;
-      margin: 0 auto;
-      height: 420px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      > h1 {
+    background-color: #1f1f1f;
+    justify-content: space-between;
+    padding-top: 100px;
+    height: 460px;
+    .content {
+      color: #ffffff;
+      padding: 20px;
+
+      h1 {
         font-family: var(--primary-font);
+        font-style: normal;
         font-weight: 700;
-        font-size: 2rem;
-        color: #000000;
-        margin-bottom: 15px;
-      }
-      > p {
-        font-family: var(--primary-font);
-        font-weight: 400;
-        font-size: 1rem;
-        color: #5a5a50;
+        font-size: 1.9rem;
         margin-bottom: 20px;
       }
+      p {
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: #d2d2c8;
+        margin-bottom: 60px;
+      }
       button {
-        width: 180px;
-        height: 48px;
         display: flex;
-        align-items: center;
         justify-content: center;
-        border: none;
+        align-items: center;
+        padding: 10px 24px;
+        gap: 8px;
+        width: 139px;
+        height: 48px;
         background: #a70e0d;
         border-radius: 10px;
         font-family: var(--primary-font);
         font-style: normal;
         font-weight: 700;
-        font-size: 1rem;
+        font-size: 0.85rem;
+        letter-spacing: 0.1px;
         color: #ffffff;
+        border: none;
+        outline: none;
         cursor: pointer;
       }
     }
+    .img__container {
+      width: 80%;
+      height: 100%;
+      > img {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 25px;
+      }
+    }
   }
+
   .countries {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 100px;
     h1 {
@@ -99,8 +96,11 @@ export const Wrapper = styled.div`
       }
     }
   }
-  @media (max-width: 1300px) {
-    width: 90%;
+
+  @media (max-width: 880px) {
+    .img__container {
+      display: none;
+    }
   }
   @media (max-width: 680px) {
     .marketplace__container {

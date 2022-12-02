@@ -1,28 +1,25 @@
 import { Wrapper } from "./Marketplace.style";
-import Shop from "../../Asset/shop.png";
+import demo from "../../Asset/demo.png";
 import nigeria from "../../Asset/nigeria.png";
 import cameroon from "../../Asset/cameroon.png";
+
 const Marketplace = () => {
   return (
     <Wrapper id="marketplace">
-      <div className="marketplace">
-        <div className="marketplace__container">
-          <div className="img__container">
-            <img src={Shop} alt="shops" />
-          </div>
-          <div className="marketplace__detials">
-            <div className="marketplace__info">
-              <h1>Want to open up shop with us ?</h1>
-              <p>
-                Ever wanted to start your own franchise? This is your chance –
-                we're taking on new franchise partners!
-              </p>
-              <div className="btn">
-                <button>Open up shop</button>
-              </div>
-            </div>
-          </div>
+      <div className="open__shop">
+        <div className="content">
+          <h1>Want to open up shop with us ?</h1>
+          <p>
+            Ever wanted to start your own franchise? This is your chance – we're
+            taking on new franchise partners!
+          </p>
+          <button>Open Up Shop</button>
         </div>
+        <div className="img__container">
+          <img src={demo} alt="demo" />
+        </div>
+      </div>
+      <div className="marketplace">
         <div className="countries">
           <h1>Available in</h1>
           <div className="flag__image">
