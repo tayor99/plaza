@@ -1,6 +1,7 @@
 import { links } from "../../utils";
 import { Header } from "./Navbar.style";
 import { FaBars } from "react-icons/fa";
+import Logo from "../../Asset/logo-3.png";
 
 const Navbar = ({ setIsSidebarOpen }) => {
   const openSideBar = () => {
@@ -10,7 +11,7 @@ const Navbar = ({ setIsSidebarOpen }) => {
   return (
     <Header>
       <div className="navbar__title">
-        <h1>Plazzaa</h1>
+        <img src={Logo} alt="logo_img" />
       </div>
       <button className="nav-toggle" onClick={openSideBar}>
         <FaBars />

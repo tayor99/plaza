@@ -5,6 +5,7 @@ import {
   AiFillInstagram,
   AiFillFacebook,
 } from "react-icons/ai";
+import Logo from "../../Asset/L6x.png";
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
         </ul>
         <div className="footer__socials">
           <div className="footer__logo">
-            <h1>Plazzaa</h1>
+            <img src={Logo} alt="Footer Logo" />
             <p>Plazzaa inc. All rights reserved</p>
           </div>
           <div className="socials">

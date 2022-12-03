@@ -1,5 +1,5 @@
 import { Wrapper } from "./OurApp.style";
-import SamsungPhone from "../../Asset/samsung-1.png";
+import SamsungPhone from "../../Asset/iphone-10.png";
 import Logo from "../../Asset/logo1.png";
 
 const OurApp = () => {

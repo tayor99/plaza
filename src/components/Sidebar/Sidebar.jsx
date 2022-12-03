@@ -1,6 +1,7 @@
 import { FaTimes } from "react-icons/fa";
 import { links } from "../../utils";
 import { SidebarContainer } from "./Sidebar.style";
+import Logo from "../../Asset/logo-3.png";
 
 const Sidebar = ({ setIsSidebarOpen, isSidebarOpen }) => {
   const closeSidebar = () => {
@@ -12,7 +13,7 @@ const Sidebar = ({ setIsSidebarOpen, isSidebarOpen }) => {
         className={`${isSidebarOpen ? "sidebar show-sidebar" : "sidebar"}`}
       >
         <div className="sidebar-header">
-          <h1>Plazzaa</h1>
+          <img src={Logo} alt="company-logo" />
           <button className="close-btn" type="button" onClick={closeSidebar}>
             <FaTimes />
           </button>

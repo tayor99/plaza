@@ -30,12 +30,8 @@ export const Wrapper = styled.footer`
       .footer__logo {
         display: flex;
         align-items: baseline;
-        > h1 {
-          font-family: var(--primary-font);
-          font-style: normal;
-          font-weight: 700;
-          font-size: 3.5rem;
-          color: #ffffff;
+        > img {
+          width: 200px;
           margin-right: 40px;
         }
         > p {
@@ -58,7 +54,8 @@ export const Wrapper = styled.footer`
   }
   @media (max-width: 750px) {
     .footer__links {
-      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
       li {
         margin-bottom: 10px;
       }
@@ -74,6 +71,7 @@ export const Wrapper = styled.footer`
       .socials {
         margin-top: 20px;
         > svg {
+          font-size: 2rem !important;
           margin-left: 0px !important;
         }
       }

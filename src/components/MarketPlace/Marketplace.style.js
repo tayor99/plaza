@@ -98,17 +98,35 @@ export const Wrapper = styled.div`
   }
 
   @media (max-width: 880px) {
+    .open__shop {
+      flex-direction: column;
+      height: fit-content;
+      padding: 40px;
+    }
     .img__container {
-      display: none;
+      width: 100%;
+      > img {
+        border-radius: 10px !important;
+      }
     }
   }
   @media (max-width: 680px) {
-    .marketplace__container {
-      position: static;
+    .open__shop {
+      padding: 20px;
+      .img__container {
+        width: 100%;
+      }
     }
-    .img__container {
-      display: none;
+    .content {
+      h1 {
+        font-size: 1.4rem;
+      }
+      p {
+        font-size: 0.8rem;
+        margin-bottom: 20px !important;
+      }
     }
+
     .marketplace__detials {
       width: 100%;
       position: static;
