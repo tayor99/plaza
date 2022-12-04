@@ -46,6 +46,7 @@ export const Wrapper = styled.div`
     .img__container {
       width: 100%;
       height: 400px;
+      clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 89%);
       img {
         width: 100%;
         height: 100%;
@@ -69,6 +70,7 @@ export const Wrapper = styled.div`
       }
       .img_container {
         display: block;
+        margin-top: 30px;
       }
     }
     .intro__img {

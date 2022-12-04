@@ -1,6 +1,6 @@
 import { Wrapper } from "./Intro.style.js";
 import plazaCard from "../../Asset/plazacard.png";
-import showcase from "../../Asset/showcase.png";
+import showcase from "../../Asset/showcase-card.png";
 
 const Intro = () => {
   return (
@@ -25,7 +25,7 @@ const Intro = () => {
       </div>
       <div className="intro__img">
         <div className="img__container">
-          <img src={plazaCard} alt="plaza card" />
+          <img src={showcase} alt="plaza card" />
         </div>
       </div>
     </Wrapper>

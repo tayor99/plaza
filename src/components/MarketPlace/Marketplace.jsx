@@ -1,7 +1,7 @@
 import { Wrapper } from "./Marketplace.style";
 import demo from "../../Asset/demo.png";
-import nigeria from "../../Asset/nigeria.png";
-import cameroon from "../../Asset/cameroon.png";
+import nigeria from "../../Asset/nig.png";
+import cameroon from "../../Asset/cam.png";
 
 const Marketplace = () => {
   return (

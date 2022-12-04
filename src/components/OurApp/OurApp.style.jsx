@@ -91,19 +91,29 @@ export const Wrapper = styled.div`
     }
   }
   @media (max-width: 780px) {
+    margin-top: 20px !important;
     .ourApp__container {
-      justify-content: center;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin: 0 auto !important;
     }
     .img__container {
-      display: none;
+      margin-top: 40px;
+      margin-right: 0 !important;
+      width: 50%;
+      > img {
+        width: 100%;
+      }
     }
     .content {
+      align-items: center;
       width: 80% !important;
     }
     h2 {
       font-size: 1.4rem !important;
     }
     p {
+      text-align: center;
       font-size: 0.8rem !important;
     }
     h4 {
