@@ -95,7 +95,7 @@ export const Wrapper = styled.div`
   @media (max-width: 860px) {
     flex-direction: column;
     justify-content: flex-start;
-    height: 1097px;
+    height: 900px;
     gap: 68px;
     margin-top: 40px;
     overflow: visible;

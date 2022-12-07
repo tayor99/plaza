@@ -51,6 +51,7 @@ export const Wrapper = styled.div`
         border: none;
         outline: none;
         cursor: pointer;
+        margin-bottom: 40px;
       }
     }
     .img__container {
@@ -102,10 +103,13 @@ export const Wrapper = styled.div`
     .open__shop {
       flex-direction: column;
       height: fit-content;
-      padding: 40px;
+      padding: 40px 0;
+    }
+    .content {
+      width: 80% !important;
     }
     .img__container {
-      width: 100%;
+      width: 80% !important;
       > img {
         border-radius: 10px !important;
       }
@@ -119,8 +123,11 @@ export const Wrapper = styled.div`
       }
     }
     .content {
+      width: 90% !important;
+      margin: 30px auto;
       h1 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        font-weight: 600;
       }
       p {
         font-size: 0.8rem;

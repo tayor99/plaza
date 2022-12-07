@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   h1 {
-    margin-top: 25px;
+    margin-top: 60px;
     text-align: center;
     font-family: var(--primary-font);
     font-style: normal;
@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
     font-size: 2rem;
     color: var(--clr-black);
   }
-  .service__carousel {
+  /* .service__carousel {
     margin: 50px 0;
     .img__container {
       width: 100%;
@@ -21,7 +21,8 @@ export const Wrapper = styled.div`
         object-fit: cover;
       }
     }
-  }
+  } */
+
   .services {
     width: 100%;
     > ul {
@@ -77,14 +78,19 @@ export const Wrapper = styled.div`
       cursor: pointer;
     }
   }
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
     .services {
       > ul {
-        width: 90%;
-        /* justify-content: flex-start; */
-        > li {
-          margin: 5px 10px;
-          padding: 10px 20px;
+        width: 95%;
+        justify-content: center;
+        li {
+          padding: 5px 7px;
+          img {
+            width: 30px;
+          }
+          p {
+            margin: 0 10px;
+          }
         }
       }
     }
