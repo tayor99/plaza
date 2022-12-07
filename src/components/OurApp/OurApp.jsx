@@ -17,6 +17,10 @@ const OurApp = () => {
             plazzaa app on both Android and IOS
           </p>
           <h4>Coming soon !!!</h4>
+          <form>
+            <input type="text" placeholder="Enter your e-mail" />
+            <button>Get notified</button>
+          </form>
         </div>
       </div>
     </Wrapper>

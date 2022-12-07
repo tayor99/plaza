@@ -59,7 +59,7 @@ export const Wrapper = styled.div`
         font-weight: 400;
         font-size: 1.1rem;
         line-height: 1.5;
-        margin-bottom: 80px;
+        margin-bottom: 5px;
       }
       h4 {
         font-family: var(--primary-font);
@@ -68,6 +68,30 @@ export const Wrapper = styled.div`
         font-size: 1.7rem;
         line-height: 40px;
         color: #272443;
+      }
+      > form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        width: 100%;
+        > input {
+          background-color: transparent;
+          border: 1px solid #000000;
+          border-radius: 10px;
+          height: 55px;
+          width: 100%;
+          color: rgba(0, 0, 0, 0.5);
+          padding-left: 20px;
+        }
+        > button {
+          width: 160px;
+          height: 55px;
+          color: #ffffff;
+          background: #000000;
+          border-radius: 13.4796px;
+          margin-top: 20px;
+          cursor: pointer;
+        }
       }
     }
   }
@@ -78,7 +102,7 @@ export const Wrapper = styled.div`
         width: 15rem !important;
       }
       p {
-        margin-bottom: 40px !important;
+        margin-bottom: 5px !important;
       }
     }
   }
