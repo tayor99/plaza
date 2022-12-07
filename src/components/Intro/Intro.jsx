@@ -1,31 +1,43 @@
 import { Wrapper } from "./Intro.style.js";
-import plazaCard from "../../Asset/plazacard.png";
-import showcase from "../../Asset/showcase-card.png";
+import bbq from "../../Asset/bbq_small.png";
+import bed from "../../Asset/bed.png";
+import elect from "../../Asset/electricity.png";
+import gift from "../../Asset/gift_small.png";
+import health from "../../Asset/health_care.png";
+import spa from "../../Asset/spa_small.png";
 
 const Intro = () => {
   return (
     <Wrapper id="home">
       <div className="intro__details">
         <h1>
-          Your one stop shop for <span>all services</span>
+          Enjoy discounts and savings <span>all year round</span>
         </h1>
-        <div className="img_container">
-          <img src={showcase} alt="" />
-        </div>
+
         <p>
-          Finding a good plumber, painter or electrician can be a hassle.
-          Between low competition, long wait times and shoddy service, the
-          process can often be a letdown. So to handle this important service
-          for you, we've created a one-stop shop for service providers - short
-          listing the best professionals available and matching them to you
-          according to your needs. Now you can solicit bids from contractors
-          with the click of a button, from the safety of your home or at the
-          office!
+          From local services to distant adventures to everyday services,
+          Plazzaa is your one stop shop to find the best deals for every
+          occasion.
         </p>
       </div>
       <div className="intro__img">
-        <div className="img__container">
-          <img src={showcase} alt="plaza card" />
+        <div className="img__container-1 small_img">
+          <img src={bbq} alt="bbq" />
+        </div>
+        <div className="img__container-2 small_img">
+          <img src={spa} alt="plaza card" />
+        </div>
+        <div className="img__container-3  small_img">
+          <img src={elect} alt="plaza card" />
+        </div>
+        <div className="img__container-4 small_img">
+          <img src={gift} alt="plaza card" />
+        </div>
+        <div className="img__container-5 small_img">
+          <img src={health} alt="plaza card" />
+        </div>
+        <div className="img__container-6 big_img">
+          <img src={bed} alt="plaza card" />
         </div>
       </div>
     </Wrapper>
