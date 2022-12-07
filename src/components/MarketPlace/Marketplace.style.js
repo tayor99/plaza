@@ -8,11 +8,12 @@ export const Wrapper = styled.div`
     display: flex;
     background-color: #1f1f1f;
     justify-content: space-between;
-    padding-top: 100px;
-    height: 460px;
+    align-items: center;
+    height: 500px;
     .content {
       color: #ffffff;
-      padding: 20px;
+      width: 35%;
+      margin: 0 auto;
 
       h1 {
         font-family: var(--primary-font);
@@ -53,12 +54,12 @@ export const Wrapper = styled.div`
       }
     }
     .img__container {
-      width: 80%;
+      width: 50%;
       height: 100%;
       > img {
         width: 100%;
         height: 100%;
-        border-top-left-radius: 25px;
+        /* border-top-left-radius: 25px; */
       }
     }
   }

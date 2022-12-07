@@ -33,14 +33,26 @@ export const Wrapper = styled.div`
       > li {
         margin: 10px 20px;
         list-style: none;
-        background: rgba(210, 210, 200, 0.5);
+
         border-radius: 10px;
-        padding: 20px 40px;
-        font-family: var(--primary-font);
-        font-style: normal;
-        font-weight: 700;
-        font-size: 1rem;
-        color: #1e1e14;
+        padding: 5px 10px;
+        border: 0.1px solid #aaaaa0;
+        display: flex;
+        align-items: center;
+        height: 43px;
+        > img {
+          width: 43px;
+          height: 95%;
+          object-fit: contain;
+        }
+        > p {
+          font-family: var(--primary-font);
+          font-style: normal;
+          font-weight: 700;
+          font-size: 0.9rem;
+          color: #1e1e14;
+          margin: 0 20px;
+        }
       }
     }
   }
